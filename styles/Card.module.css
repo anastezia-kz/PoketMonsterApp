@@ -1,0 +1,32 @@
+
+.Card {
+    display: flex;
+    background: white;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.Card_img {
+    text-align: center;
+}
+
+.Card_types {
+    display: flex;
+    justify-content: center;    
+}
+
+.Card_type {
+    padding: 5px 10px;
+    margin: 10px 10px 10px 0;
+    border-radius: 5px;
+    background:indianred;
+    color: #fff;
+}
+
+.Card_name {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 800;
+}
