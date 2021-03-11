@@ -14,12 +14,14 @@
 
 .Card_types {
     display: flex;
+    flex-direction: column;
     justify-content: center;    
+    align-items: center;
 }
 
 .Card_type {
     padding: 5px 10px;
-    margin: 10px 10px 10px 0;
+    margin: 10px;
     border-radius: 5px;
     background:indianred;
     color: #fff;
@@ -29,4 +31,10 @@
     text-align: center;
     text-transform: capitalize;
     font-weight: 800;
+}
+
+@media (min-width: 600px) {
+    .Card {
+        flex-direction: row;
+    }
 }

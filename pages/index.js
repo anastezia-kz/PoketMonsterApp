@@ -2,7 +2,6 @@
 import PokemonList from "../components/PokemonList";
 
 const Home = ({ pokemons }) => {
-  console.log(pokemons);
   return (
     <PokemonList pokemons={pokemons} />
   );
