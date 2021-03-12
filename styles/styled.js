@@ -8,17 +8,18 @@ export const StyledCard = styled.div`
   flex-direction: column;
   border-radius: 10px;
   padding: 15px;
-  margin: 50px;
+  margin: 50px 50px 0 50px;
 
   ${({main}) => main==='main' && css`
     cursor: pointer;
   `}
 
-  @media (min-width: 600px) {
-    flex-direction: row;
-  }
   > * {
     padding: 20px;
+  }
+
+  @media (min-width: 600px) {
+    flex-direction: row;
   }
 `;
 
