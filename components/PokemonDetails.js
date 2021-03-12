@@ -8,6 +8,7 @@ const PokemonDetails = ({ pokemon }) => {
             <h3 className={cardStyles.Card_name}> Hello, I am {pokemon.name} </h3>
             <div className={cardStyles.Card_img}>
                 <img src={pokemon.sprites.front_default} alt="" />
+                <img src={pokemon.sprites.back_default} alt="" />
             </div>
         </StyledIntro>
         <div className={cardStyles.Card_types}>
